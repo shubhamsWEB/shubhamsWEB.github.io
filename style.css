@@ -292,3 +292,11 @@ a.pure-button-primary {
 .bottom {
     margin-top: 100px;
 }
+/*REQUIRED*/
+.hidden{
+  opacity: 0;
+}
+
+.visible{
+  opacity: 1;
+}
