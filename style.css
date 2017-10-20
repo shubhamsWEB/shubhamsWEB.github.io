@@ -284,11 +284,11 @@ a.pure-button-primary {
         font-size: 300%;
     }
 }
-.node {
+.icon {
     transition: .2s ease-in-out;
 }
-.node:hover {
-    font-size: 80px;
+.icon:hover {
+    font-size: 55px;
 }
 .bottom {
     margin-top: 100px;
