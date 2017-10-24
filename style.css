@@ -3,27 +3,6 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
-/*.splash-container {
-    -webkit-animation: pulse 10s infinite;
-    animation: pulse 10s infinite;
-}
-@-webkit-keyframes pulse
-{
-    0%{background: #f44336;}
-    25%{background: #1f8dd6;}
-    50%{background: #9c2780;}
-    75%{background: #673ab7;}
-    100%{background: #f44336;}SS
-
-}
-@keyframes pulse
-{
-        0%{background: #f44336;}
-    25%{background: #1f8dd6;}
-    50%{background: #9c2780;}
-    75%{background: #673ab7;}
-    100%{background: #f44336;}
-}*/
 
 body {
     line-height: 1.7em;
@@ -31,6 +10,10 @@ body {
     font-size: 13px;
 }
 
+a {
+    text-decoration: none;
+    
+}
 h1,
 h2,
 h3,
