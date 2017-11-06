@@ -19,45 +19,7 @@
         <script>
         new WOW().init();
     </script>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        // Select all links with hashes
-$('a[href*="#"]')
-  // Remove links that don't actually link to anything
-  .not('[href="#"]')
-  .not('[href="#0"]')
-  .click(function(event) {
-    // On-page links
-    if (
-      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
-      && 
-      location.hostname == this.hostname
-    ) {
-      // Figure out element to scroll to
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
-      // Does a scroll target exist?
-      if (target.length) {
-        // Only prevent default if animation is actually gonna happen
-        event.preventDefault();
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000, function() {
-          // Callback after animation
-          // Must change focus!
-          var $target = $(target);
-          $target.focus();
-          if ($target.is(":focus")) { // Checking if the target was focused
-            return false;
-          } else {
-            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
-            $target.focus(); // Set focus again
-          };
-        });
-      }
-    }
-  });
-    </script>        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>        
 </head>       
 <body>
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark  ">
@@ -252,7 +214,7 @@ $('a[href*="#"]')
                     <strong>copicosystems@yahoo.com</strong>
                 </p>
                 
-                    <button type="button" class="btn btn-dark is-right fixed-bottom" style="position: absolute; left: 80%;"><a href="" style="text-decoration: none;">RETURN TO TOP</button></a>
+                    <button type="button" class="btn btn-light is-right fixed-bottom" style="position: absolute; left: 80%;"><a href="" style="text-decoration: none; font-weight: 550;">RETURN TO TOP</button></a>
                 
 
             </div>
@@ -313,7 +275,7 @@ $('a[href*="#"]')
 </div>
 </div>
   </div>
-     <hr class="featurette-divider" style="margin-top: 15px;">
+     <hr class="featurette-divider" style="margin-top: 15px; margin-bottom: 0;">
 
             <div class="tabs is-centered is-boxed">
   <ul>
@@ -339,16 +301,14 @@ $('a[href*="#"]')
     </li>
   </ul>
 </div>
-     <h6 class="is-center wow animated flip" data-wow-duration="1s" style="color: #000;">&copy; Designed and Developed by <a href="#">Shubham Agrawal</a></h6>
+     <h6 class="is-center" data-wow-duration="1s" style="color: #000;">&copy; Designed and Developed by <a href="#">Shubham Agrawal</a></h6>
     </div>
 </div>
     
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
-  
-       
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>    
 </body>
 </html>
 

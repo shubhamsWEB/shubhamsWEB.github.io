@@ -276,6 +276,9 @@ a.pure-button-primary {
 .bottom {
     margin-top: 100px;
 }
+.nav-link {
+    font-weight: 700;
+}
 /*REQUIRED*/
 .hidden{
   opacity: 0;
