@@ -8,8 +8,20 @@ body {
     line-height: 1.7em;
     color: #7f8c8d;
     font-size: 13px;
+   }
+  .splash-container{
+    -webkit-animation: plus 10s infinite;
+    animation: plus 10s infinite;
 }
+@keyframes plus
+{
+    0%{background: #f44336;}
+    25%{background: #e91e63;}
+    50%{background: #9c2780;}
+    75%{background: #673ab7;}
+    100%{background: #f44336;}
 
+} 
 a {
     text-decoration: none;
     
